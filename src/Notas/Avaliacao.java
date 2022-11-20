@@ -48,5 +48,9 @@ public class Avaliacao {
 		this.nota2 = nota2;
 	}
 	
+	public void setNota1eNota2(int nota1, int nota2) {
+		this.nota1 = nota1;
+		this.nota2 = nota2;
+	}
 	
 }
