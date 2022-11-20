@@ -1,9 +1,11 @@
 package Alunos;
 
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class Turma {
-	private ArrayList <Aluno> listaDeAlunos = new ArrayList<>();
+	private static List<Aluno> listaDeAlunos = new ArrayList<>();
 	
 	public void addAluno(Aluno aluno) {
 		listaDeAlunos.add(aluno);
