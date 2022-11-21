@@ -279,6 +279,11 @@ public class UI {
     public double capturarNotas(String s) {
     	System.out.println("Digite a nota "+s+":");
     	double nota = teclado.nextDouble();
+    	while(nota < 0 || nota > 10.0) {
+    		System.out.println("Nota precisa ser maior que 0 e menor que 10");
+    		System.out.println("Digite a nota "+s+":");
+    		nota = teclado.nextDouble();
+    	}
     	return nota;
     }
     
